@@ -44,19 +44,7 @@ void loop() {
         val1 = 70;
         val2 = 70;
       }
-      if(data.joyX > 169){
-        val1 = 65;
-        val2 = 65;
-      }
-      if(data.joyY > 169){ 
-        val1 = 75;
-        val2 = 75;
-      }
-      if(data.joyY < 10){
-        val1 = 80;
-        val2 = 80;
-      }
-      if(data.joyZ == 0){
+      if(dat지
         val1 = 60;
         val2 = 60;
       }
