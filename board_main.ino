@@ -4,6 +4,7 @@
 #include <Servo.h>
 #define SPMAX 90 //모터 최대출력값 지정 BLDC모터이기 때문에 75도 상당히 위험함 따라서 낮춰쓰는것을 추천
 Servo motor1,motor2;
+
 int val1 = 60; //왼쪽바퀴 기본 모터값 설정
 int val2 = 60; //오른쪽바퀴 기본 모터값 설정
 RF24 radio(7, 8);
